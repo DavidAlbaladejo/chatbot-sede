@@ -1,0 +1,5 @@
+nombre,modelos_componentes,estrategia,pesos,parametros_fusion,k_inicial
+mxbai_jina_union,"[""mxbai-embed-large"", ""jina-embeddings-v2-base-es""]",union,{},{},3
+mxbai_jina_rrf,"[""mxbai-embed-large"", ""jina-embeddings-v2-base-es""]",rrf,{},"{""c"": 60}",3
+mxbai_jina_rrf_zscore,"[""mxbai-embed-large"", ""jina-embeddings-v2-base-es""]",rrf_z,{},{},3
+mxbai_jina_weighted,"[""mxbai-embed-large"", ""jina-embeddings-v2-base-es""]",weighted,"{""mxbai-embed-large"": 0.6, ""jina-embeddings-v2-base-es"": 0.4}",{},3

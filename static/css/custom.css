@@ -1,0 +1,324 @@
+/* ===== ESTILOS BASE DE LA APLICACION ===== */
+
+/* Contenedor principal */
+.stApp {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #eeeef0 0%, #c9cef8 100%);
+    min-height: 100vh;
+}
+
+/* Cabecera principal */
+.main-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-header h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.main-header p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* ===== ESTILOS DE MENSAJES DE CHAT ===== */
+
+/* Contenedor de mensajes */
+.stChatMessage {
+    animation: fadeIn 0.3s ease-out;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+/* Mensajes del usuario */
+.stChatMessage[data-testid="user-message"] {
+    background: rgba(255, 255, 255, 0.15);
+    border-left: 4px solid #4CAF50;
+}
+
+/* Mensajes del bot */
+.stChatMessage[data-testid="assistant-message"] {
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #2196F3;
+}
+
+/* Avatar del chat */
+.stChatMessage .stChatMessageAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* ===== ESTILOS DEL INPUT DE CHAT ===== */
+
+/* Contenedor del input */
+.stChatInputContainer {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 1rem;
+}
+
+/* Campo de texto del input */
+.stChatInput input {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 12px 20px !important;
+    font-size: 16px !important;
+    color: #333 !important;
+}
+
+.stChatInput input:focus {
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5) !important;
+    outline: none !important;
+}
+
+/* Boton de envio del chat */
+.stChatInput button {
+    background: linear-gradient(45deg, #7392a7, #196da5) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 10px !important;
+    transition: all 0.3s ease !important;
+}
+
+.stChatInput button:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4) !important;
+}
+
+/* ===== ESTILOS DE LA BARRA LATERAL ===== */
+
+/* Contenedor de la sidebar */
+.css-1d391kg {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Titulo de la sidebar */
+.css-1d391kg h2 {
+    color: white !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Botones de la sidebar */
+.css-1d391kg .stButton button {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease !important;
+}
+
+.css-1d391kg .stButton button:hover {
+    background: rgba(255, 255, 255, 0.3) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* ===== ANIMACIONES ===== */
+
+/* Animacion de aparicion para mensajes */
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+/* ===== BOTONES DE FEEDBACK ===== */
+
+/* Mejora de botones de feedback */
+.stButton button {
+    transition: all 0.3s ease !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    margin: 2px !important;
+}
+
+.stButton button:hover {
+    transform: scale(1.1) !important;
+    background-color: rgba(255, 215, 0, 0.2) !important;
+    border-color: rgba(255, 215, 0, 0.5) !important;
+}
+
+/* Botones de estrellas especificos */
+button[kind="secondary"] {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: #FFD700 !important;
+    border: 1px solid rgba(255, 215, 0, 0.3) !important;
+    font-size: 14px !important;
+}
+
+button[kind="secondary"]:hover {
+    background: rgba(255, 215, 0, 0.2) !important;
+    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3) !important;
+}
+
+/* ===== METRICAS Y ESTADISTICAS ===== */
+
+/* Contenedor de metricas */
+.metric-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    backdrop-filter: blur(5px);
+}
+
+/* Valores de metricas */
+.stMetric {
+    background: rgba(255, 255, 255, 0.05) !important;
+    padding: 10px !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.stMetric label {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.stMetric .metric-value {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+/* ===== SPINNER Y ELEMENTOS DE CARGA ===== */
+
+/* Spinner personalizado */
+.stSpinner {
+    text-align: center;
+    color: white;
+}
+
+.stSpinner > div {
+    border-top-color: #4CAF50 !important;
+}
+
+/* ===== FOOTER ===== */
+
+/* Pie de pagina */
+.footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    margin-top: 2rem;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer p {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0.5rem 0;
+    font-size: 14px;
+}
+
+.footer strong {
+    color: black;
+}
+
+/* ===== MODO OSCURO ===== */
+
+/* Estilos para modo oscuro */
+.dark-mode .stApp {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%) !important;
+}
+
+.dark-mode .main-header {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark-mode .stChatMessage {
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* ===== AJUSTES RESPONSIVE ===== */
+
+/* Ajustes para moviles */
+@media (max-width: 768px) {
+    .main-header h1 {
+        font-size: 2rem;
+    }
+    
+    .main-header p {
+        font-size: 1rem;
+    }
+    
+    .stChatInputContainer {
+        padding: 0.5rem;
+    }
+    
+    .stChatMessage {
+        margin: 8px 0;
+        padding: 0.8rem;
+    }
+    
+    .stButton button {
+        padding: 6px 12px !important;
+        font-size: 12px !important;
+    }
+}
+
+/* Ajustes para tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .main-header {
+        padding: 1.5rem 1rem;
+    }
+    
+    .stChatMessage {
+        padding: 0.9rem;
+    }
+}
+
+/* ===== ELEMENTOS ADICIONALES ===== */
+
+/* Alertas y notificaciones */
+.stAlert {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+/* Selectbox y otros inputs */
+.stSelectbox {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+}
+
+/* Toggle switches */
+.stCheckbox {
+    color: white !important;
+}
+
+/* Divisores */
+hr {
+    border: none !important;
+    height: 1px !important;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent) !important;
+    margin: 2rem 0 !important;
+}

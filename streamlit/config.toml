@@ -1,0 +1,20 @@
+[theme]
+base="light"
+primaryColor="DodgerBlue"
+backgroundColor="#c9eaff"
+secondaryBackgroundColor="Snow"
+codeBackgroundColor="PowderBlue"
+borderColor="RoyalBlue"
+textColor="Black"
+font="sans serif"
+
+[theme.sidebar]
+primaryColor="LightCyan"
+backgroundColor="LightSkyBlue"
+secondaryBackgroundColor="LightBlue"
+codeBackgroundColor="PowderBlue"
+textColor="Black"
+font="sans serif"
+
+[server]
+enableStaticServing = true

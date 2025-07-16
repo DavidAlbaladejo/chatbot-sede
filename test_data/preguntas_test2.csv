@@ -1,0 +1,26 @@
+id,pregunta,tramite_id,tramite_nombre,url_esperada,categoria
+1,"¿Qué tengo que hacer si tengo un pitbull?",658,"Licencia para tenencia de animales potencialmente peligrosos, obtención, renovación y modificación",https://sede.murcia.es/ficha-procedimiento/658,sanidad
+2,"¿Tengo que registrar en algún sitio mi pitbull?",658,"Licencia para tenencia de animales potencialmente peligrosos, obtención, renovación y modificación",https://sede.murcia.es/ficha-procedimiento/658,sanidad
+3,"¿Necesito una licencia para tener un pitbull?",658,"Licencia para tenencia de animales potencialmente peligrosos, obtención, renovación y modificación",https://sede.murcia.es/ficha-procedimiento/658,sanidad
+4,"¿Cómo solicito la licencia para tener un pitbull?",658,"Licencia para tenencia de animales potencialmente peligrosos, obtención, renovación y modificación",https://sede.murcia.es/ficha-procedimiento/658,sanidad
+5,"¿Qué pasos tengo que hacer para registrar mi pitbull?",658,"Licencia para tenencia de animales potencialmente peligrosos, obtención, renovación y modificación",https://sede.murcia.es/ficha-procedimiento/658,sanidad
+6,"¿Cómo puedo solicitar la carrera horizontal?",3362,"Solicitud carrera horizontal",https://sede.murcia.es/ficha-procedimiento/3362,personal
+7,"Soy funcionario del Ayuntamiento de Murcia, ¿puedo pedir la carrera profesional?",3362,"Solicitud carrera horizontal",https://sede.murcia.es/ficha-procedimiento/3362,personal
+8,"¿Qué pasos tengo que seguir para apuntarme a la carrera horizontal?",3362,"Solicitud carrera horizontal",https://sede.murcia.es/ficha-procedimiento/3362,personal
+9,"¿Existe algún tipo de promoción horizontal para funcionarios de carrera del Ayuntamiento?",3362,"Solicitud carrera horizontal",https://sede.murcia.es/ficha-procedimiento/3362,personal
+10,"¿Qué requisitos tengo que cumplir para tener acceso a la carrera horizontal?",3362,"Solicitud carrera horizontal",https://sede.murcia.es/ficha-procedimiento/3362,personal
+11,"¿Cómo me empadrono en Murcia?",3662,"Alta y cambio de domicilio en el Padrón Municipal de Habitantes.",https://sede.murcia.es/ficha-procedimiento/3662,padron
+12,"¿Qué tengo que hacer para empadronar a mi hija en Murcia?",3662,"Alta y cambio de domicilio en el Padrón Municipal de Habitantes.",https://sede.murcia.es/ficha-procedimiento/3662,padron
+13,"¿Qué documentos necesito para empronarme en la ciudad?",3662,"Alta y cambio de domicilio en el Padrón Municipal de Habitantes.",https://sede.murcia.es/ficha-procedimiento/3662,padron
+14,"¿Qué pasos tengo que seguir para empadronar a mi hija conmigo?",3662,"Alta y cambio de domicilio en el Padrón Municipal de Habitantes.",https://sede.murcia.es/ficha-procedimiento/3662,padron
+15,"¿Puedo empadronarme en Murcia si no tengo contrato de alquiler?",3662,"Alta y cambio de domicilio en el Padrón Municipal de Habitantes.",https://sede.murcia.es/ficha-procedimiento/3662,padron
+16,"Quiero organizar un partido con amigos, ¿puedo reservar un campo de fútbol municipal?",1482,"Solicitud de reserva de instalación deportiva para celebración de actividad/evento",https://sede.murcia.es/ficha-procedimiento/1482,deportes
+17,"Estoy pensando en celebrar un cumpleaños en unas pistas de padel, ¿es posible hacerlo?",1482,"Solicitud de reserva de instalación deportiva para celebración de actividad/evento",https://sede.murcia.es/ficha-procedimiento/1482,deportes
+18,"Soy el organizador de un campeonato de tenis, ¿puedo reservar instalaciones municipales para hacerlo?",1482,"Solicitud de reserva de instalación deportiva para celebración de actividad/evento",https://sede.murcia.es/ficha-procedimiento/1482,deportes
+19,"¿Hay algún espacio público para organizar unas jornadas de ajedrez?",1482,"Solicitud de reserva de instalación deportiva para celebración de actividad/evento",https://sede.murcia.es/ficha-procedimiento/1482,deportes
+20,"¿Puedo celebrar una exposición de pintura en algún espacio público municipal?",1482,"Solicitud de reserva de instalación deportiva para celebración de actividad/evento",https://sede.murcia.es/ficha-procedimiento/1482,deportes
+21,"¿Tengo que solicitar permiso para quemar rastrojos?",3262,"Quema de restos de poda agrícola por motivos fitosanitarios",https://sede.murcia.es/ficha-procedimiento/3262,medio ambiente
+22,"He podado mis moreras y quiero quemar las ramas, ¿puedo hacerlo sin permiso?",3262,"Quema de restos de poda agrícola por motivos fitosanitarios",https://sede.murcia.es/ficha-procedimiento/3262,medio ambiente
+23,"Tengo permiso de la consejería de agricultura para quemar rastrojos en mi huerto, ¿puedo hacerlo sin avisar?",3262,"Quema de restos de poda agrícola por motivos fitosanitarios",https://sede.murcia.es/ficha-procedimiento/3262,medio ambiente
+24,"¿Qué pasos tengo que seguir para poder quemar mis rastrojos de manera legal?",3262,"Quema de restos de poda agrícola por motivos fitosanitarios",https://sede.murcia.es/ficha-procedimiento/3262,medio ambiente
+25,"¿Es ilegal quemar los rastrojos de mi huerta en mi casa?",3262,"Quema de restos de poda agrícola por motivos fitosanitarios",https://sede.murcia.es/ficha-procedimiento/3262,medio ambiente

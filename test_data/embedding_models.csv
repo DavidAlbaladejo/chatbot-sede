@@ -1,0 +1,4 @@
+nombre,parametros,variables_entorno
+mxbai-embed-large,"{""dimension"": 1024}","{""OLLAMA_EMBEDDING"": ""mxbai-embed-large"", ""EMBEDDING_PROVIDER"": ""ollama""}"
+nomic-embed-text,"{""dimension"": 768}","{""OLLAMA_EMBEDDING"": ""nomic-embed-text"", ""EMBEDDING_PROVIDER"": ""ollama""}"
+jina-embeddings-v2-base-es,"{""dimension"": 1024}","{""OLLAMA_EMBEDDING"": ""jina/jina-embeddings-v2-base-es"", ""EMBEDDING_PROVIDER"": ""ollama""}"
